@@ -1,0 +1,1 @@
+CtLang4 is a Coffeescript analog for Golang; a white space syntax programming language that transpiles to Go.
