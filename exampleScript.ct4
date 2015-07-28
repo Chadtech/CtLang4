@@ -1,0 +1,13 @@
+main (dank string, memes int) []int ->
+
+  four := 4
+
+  message := "nope"
+
+  if four is 4
+    message = "Yeah Dank Memes m80"
+
+  four = float64 four
+
+
+  fmt.Printf four, message
