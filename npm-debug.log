@@ -1,0 +1,619 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'lodash', '-f' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 warn using --force I sure hope you know what you are doing.
+5 verbose cache add [ 'lodash', null ]
+6 verbose cache add name=undefined spec="lodash" args=["lodash",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'lodash',
+7 verbose parsed url   path: 'lodash',
+7 verbose parsed url   href: 'lodash' }
+8 silly lockFile 901466a5-lodash lodash
+9 verbose lock lodash /Users/Chadtech/.npm/901466a5-lodash.lock
+10 silly lockFile 901466a5-lodash lodash
+11 silly lockFile 901466a5-lodash lodash
+12 verbose addNamed [ 'lodash', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile f856e425-lodash lodash@
+15 verbose lock lodash@ /Users/Chadtech/.npm/f856e425-lodash.lock
+16 silly addNameRange { name: 'lodash', range: '*', hasData: false }
+17 verbose url raw lodash
+18 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+19 verbose url resolved https://registry.npmjs.org/lodash
+20 info trying registry request attempt 1 at 14:50:38
+21 verbose etag "5C74KUXJTPMZ53HTOBWKEOJPN"
+22 http GET https://registry.npmjs.org/lodash
+23 http 304 https://registry.npmjs.org/lodash
+24 silly registry.get cb [ 304,
+24 silly registry.get   { date: 'Fri, 03 Jul 2015 21:50:38 GMT',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     etag: '"5C74KUXJTPMZ53HTOBWKEOJPN"',
+24 silly registry.get     age: '58',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'x-served-by': 'cache-sjc3121-SJC',
+24 silly registry.get     'x-cache': 'HIT',
+24 silly registry.get     'x-cache-hits': '16',
+24 silly registry.get     'x-timer': 'S1435960238.733642,VS0,VE0',
+24 silly registry.get     vary: 'Accept' } ]
+25 verbose etag lodash from cache
+26 silly addNameRange number 2 { name: 'lodash', range: '*', hasData: true }
+27 silly addNameRange versions [ 'lodash',
+27 silly addNameRange   [ '0.1.0',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.3.1',
+27 silly addNameRange     '0.3.2',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.4.1',
+27 silly addNameRange     '0.4.2',
+27 silly addNameRange     '0.5.0-rc.1',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.5.1',
+27 silly addNameRange     '0.5.2',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.6.1',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.8.1',
+27 silly addNameRange     '0.8.2',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.9.1',
+27 silly addNameRange     '0.9.2',
+27 silly addNameRange     '0.10.0',
+27 silly addNameRange     '1.0.0-rc.1',
+27 silly addNameRange     '1.0.0-rc.2',
+27 silly addNameRange     '1.0.0-rc.3',
+27 silly addNameRange     '1.0.0',
+27 silly addNameRange     '1.0.1',
+27 silly addNameRange     '1.1.0',
+27 silly addNameRange     '1.1.1',
+27 silly addNameRange     '1.2.0',
+27 silly addNameRange     '1.2.1',
+27 silly addNameRange     '1.3.0',
+27 silly addNameRange     '1.3.1',
+27 silly addNameRange     '2.0.0',
+27 silly addNameRange     '2.1.0',
+27 silly addNameRange     '2.2.0',
+27 silly addNameRange     '2.2.1',
+27 silly addNameRange     '2.3.0',
+27 silly addNameRange     '2.4.0',
+27 silly addNameRange     '2.4.1',
+27 silly addNameRange     '3.0.0',
+27 silly addNameRange     '3.0.1',
+27 silly addNameRange     '3.1.0',
+27 silly addNameRange     '3.2.0',
+27 silly addNameRange     '3.3.0',
+27 silly addNameRange     '3.3.1',
+27 silly addNameRange     '3.4.0',
+27 silly addNameRange     '3.5.0',
+27 silly addNameRange     '3.6.0',
+27 silly addNameRange     '1.0.2',
+27 silly addNameRange     '3.7.0',
+27 silly addNameRange     '2.4.2',
+27 silly addNameRange     '3.8.0',
+27 silly addNameRange     '3.9.0',
+27 silly addNameRange     '3.9.1',
+27 silly addNameRange     '3.9.2',
+27 silly addNameRange     '3.9.3',
+27 silly addNameRange     '3.10.0' ] ]
+28 verbose addNamed [ 'lodash', '3.10.0' ]
+29 verbose addNamed [ '3.10.0', '3.10.0' ]
+30 silly lockFile d7a14456-lodash-3-10-0 lodash@3.10.0
+31 verbose lock lodash@3.10.0 /Users/Chadtech/.npm/d7a14456-lodash-3-10-0.lock
+32 silly lockFile fed973e3-mjs-org-lodash-lodash-3-10-0-tgz https://registry.npmjs.org/lodash/-/lodash-3.10.0.tgz
+33 verbose lock https://registry.npmjs.org/lodash/-/lodash-3.10.0.tgz /Users/Chadtech/.npm/fed973e3-mjs-org-lodash-lodash-3-10-0-tgz.lock
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash/-/lodash-3.10.0.tgz',
+34 verbose addRemoteTarball   '93d51c672828a4416a12af57220ba8a8737e2fbb' ]
+35 info retry fetch attempt 1 at 14:50:38
+36 verbose fetch to= /Users/Chadtech/tmp/npm-2038-6kFXwxeC/registry.npmjs.org/lodash/-/lodash-3.10.0.tgz
+37 http GET https://registry.npmjs.org/lodash/-/lodash-3.10.0.tgz
+38 http 200 https://registry.npmjs.org/lodash/-/lodash-3.10.0.tgz
+39 silly lockFile fed973e3-mjs-org-lodash-lodash-3-10-0-tgz https://registry.npmjs.org/lodash/-/lodash-3.10.0.tgz
+40 silly lockFile fed973e3-mjs-org-lodash-lodash-3-10-0-tgz https://registry.npmjs.org/lodash/-/lodash-3.10.0.tgz
+41 silly lockFile d7a14456-lodash-3-10-0 lodash@3.10.0
+42 silly lockFile d7a14456-lodash-3-10-0 lodash@3.10.0
+43 silly lockFile f856e425-lodash lodash@
+44 silly lockFile f856e425-lodash lodash@
+45 silly resolved [ { name: 'lodash',
+45 silly resolved     version: '3.10.0',
+45 silly resolved     description: 'The modern build of lodash modular utilities.',
+45 silly resolved     homepage: 'https://lodash.com/',
+45 silly resolved     icon: 'https://lodash.com/icon.svg',
+45 silly resolved     license: 'MIT',
+45 silly resolved     main: 'index.js',
+45 silly resolved     keywords: [ 'modules', 'stdlib', 'util' ],
+45 silly resolved     author:
+45 silly resolved      { name: 'John-David Dalton',
+45 silly resolved        email: 'john.david.dalton@gmail.com',
+45 silly resolved        url: 'http://allyoucanleet.com/' },
+45 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+45 silly resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+45 silly resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+45 silly resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+45 silly resolved     _id: 'lodash@3.10.0',
+45 silly resolved     _shasum: '93d51c672828a4416a12af57220ba8a8737e2fbb',
+45 silly resolved     _from: 'lodash@',
+45 silly resolved     _npmVersion: '2.12.0',
+45 silly resolved     _nodeVersion: '0.12.5',
+45 silly resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+45 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+45 silly resolved     dist:
+45 silly resolved      { shasum: '93d51c672828a4416a12af57220ba8a8737e2fbb',
+45 silly resolved        tarball: 'http://registry.npmjs.org/lodash/-/lodash-3.10.0.tgz' },
+45 silly resolved     directories: {},
+45 silly resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-3.10.0.tgz' } ]
+46 info install lodash@3.10.0 into /Users/Chadtech/Documents/code
+47 info installOne lodash@3.10.0
+48 info /Users/Chadtech/Documents/code/node_modules/lodash unbuild
+49 info preuninstall lodash@3.10.0
+50 info uninstall lodash@3.10.0
+51 verbose true,/Users/Chadtech/Documents/code/node_modules,/Users/Chadtech/Documents/code/node_modules unbuild lodash@3.10.0
+52 info postuninstall lodash@3.10.0
+53 verbose tar unpack /Users/Chadtech/.npm/lodash/3.10.0/package.tgz
+54 silly lockFile e551b3f0-cuments-code-node-modules-lodash tar:///Users/Chadtech/Documents/code/node_modules/lodash
+55 verbose lock tar:///Users/Chadtech/Documents/code/node_modules/lodash /Users/Chadtech/.npm/e551b3f0-cuments-code-node-modules-lodash.lock
+56 silly lockFile 890255bf-ch-npm-lodash-3-10-0-package-tgz tar:///Users/Chadtech/.npm/lodash/3.10.0/package.tgz
+57 verbose lock tar:///Users/Chadtech/.npm/lodash/3.10.0/package.tgz /Users/Chadtech/.npm/890255bf-ch-npm-lodash-3-10-0-package-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm extractEntry chain.js
+63 silly gunzTarPerm extractEntry string.js
+64 silly gunzTarPerm extractEntry collection.js
+65 silly gunzTarPerm extractEntry array.js
+66 silly gunzTarPerm extractEntry date.js
+67 silly gunzTarPerm extractEntry number.js
+68 silly gunzTarPerm extractEntry function.js
+69 silly gunzTarPerm extractEntry index.js
+70 silly gunzTarPerm extractEntry math.js
+71 silly gunzTarPerm extractEntry support.js
+72 silly gunzTarPerm extractEntry lang.js
+73 silly gunzTarPerm extractEntry object.js
+74 silly gunzTarPerm extractEntry utility.js
+75 silly gunzTarPerm extractEntry collection/all.js
+76 silly gunzTarPerm extractEntry collection/forEachRight.js
+77 silly gunzTarPerm extractEntry collection/groupBy.js
+78 silly gunzTarPerm extractEntry collection/include.js
+79 silly gunzTarPerm extractEntry collection/includes.js
+80 silly gunzTarPerm extractEntry collection/forEach.js
+81 silly gunzTarPerm extractEntry collection/inject.js
+82 silly gunzTarPerm extractEntry collection/invoke.js
+83 silly gunzTarPerm extractEntry collection/map.js
+84 silly gunzTarPerm extractEntry collection/max.js
+85 silly gunzTarPerm extractEntry collection/min.js
+86 silly gunzTarPerm extractEntry collection/foldr.js
+87 silly gunzTarPerm extractEntry collection/partition.js
+88 silly gunzTarPerm extractEntry collection/foldl.js
+89 silly gunzTarPerm extractEntry collection/pluck.js
+90 silly gunzTarPerm extractEntry collection/findWhere.js
+91 silly gunzTarPerm extractEntry collection/reduce.js
+92 silly gunzTarPerm extractEntry collection/findLast.js
+93 silly gunzTarPerm extractEntry collection/reduceRight.js
+94 silly gunzTarPerm extractEntry collection/find.js
+95 silly gunzTarPerm extractEntry collection/reject.js
+96 silly gunzTarPerm extractEntry collection/filter.js
+97 silly gunzTarPerm extractEntry collection/sample.js
+98 silly gunzTarPerm extractEntry collection/every.js
+99 silly gunzTarPerm extractEntry collection/select.js
+100 silly gunzTarPerm extractEntry collection/eachRight.js
+101 silly gunzTarPerm extractEntry collection/shuffle.js
+102 silly gunzTarPerm extractEntry collection/each.js
+103 silly gunzTarPerm extractEntry collection/size.js
+104 silly gunzTarPerm extractEntry collection/detect.js
+105 silly gunzTarPerm extractEntry collection/some.js
+106 silly gunzTarPerm extractEntry collection/countBy.js
+107 silly gunzTarPerm extractEntry collection/sortBy.js
+108 silly gunzTarPerm extractEntry collection/contains.js
+109 silly gunzTarPerm extractEntry collection/sortByAll.js
+110 silly gunzTarPerm extractEntry collection/collect.js
+111 silly gunzTarPerm extractEntry collection/sortByOrder.js
+112 silly gunzTarPerm extractEntry collection/at.js
+113 silly gunzTarPerm extractEntry collection/sum.js
+114 silly gunzTarPerm extractEntry collection/any.js
+115 silly gunzTarPerm extractEntry collection/where.js
+116 silly gunzTarPerm extractEntry collection/indexBy.js
+117 silly gunzTarPerm extractEntry math/add.js
+118 silly gunzTarPerm extractEntry math/ceil.js
+119 silly gunzTarPerm extractEntry math/floor.js
+120 silly gunzTarPerm extractEntry math/max.js
+121 silly gunzTarPerm extractEntry math/min.js
+122 silly gunzTarPerm extractEntry math/round.js
+123 silly gunzTarPerm extractEntry math/sum.js
+124 silly gunzTarPerm extractEntry number/inRange.js
+125 silly gunzTarPerm extractEntry number/random.js
+126 silly gunzTarPerm extractEntry function/after.js
+127 silly gunzTarPerm extractEntry function/curryRight.js
+128 silly gunzTarPerm extractEntry function/debounce.js
+129 silly gunzTarPerm extractEntry function/defer.js
+130 silly gunzTarPerm extractEntry function/delay.js
+131 silly gunzTarPerm extractEntry function/curry.js
+132 silly gunzTarPerm extractEntry function/flowRight.js
+133 silly gunzTarPerm extractEntry function/memoize.js
+134 silly gunzTarPerm extractEntry function/modArgs.js
+135 silly gunzTarPerm extractEntry function/negate.js
+136 silly gunzTarPerm extractEntry function/once.js
+137 silly gunzTarPerm extractEntry function/compose.js
+138 silly gunzTarPerm extractEntry function/partial.js
+139 silly gunzTarPerm extractEntry function/bindKey.js
+140 silly gunzTarPerm extractEntry function/partialRight.js
+141 silly gunzTarPerm extractEntry function/bindAll.js
+142 silly gunzTarPerm extractEntry function/rearg.js
+143 silly gunzTarPerm extractEntry function/bind.js
+144 silly gunzTarPerm extractEntry function/restParam.js
+145 silly gunzTarPerm extractEntry function/before.js
+146 silly gunzTarPerm extractEntry function/spread.js
+147 silly gunzTarPerm extractEntry function/backflow.js
+148 silly gunzTarPerm extractEntry function/throttle.js
+149 silly gunzTarPerm extractEntry function/ary.js
+150 silly gunzTarPerm extractEntry function/wrap.js
+151 silly gunzTarPerm extractEntry function/flow.js
+152 silly gunzTarPerm extractEntry object/assign.js
+153 silly gunzTarPerm extractEntry object/functions.js
+154 silly gunzTarPerm extractEntry object/get.js
+155 silly gunzTarPerm extractEntry object/has.js
+156 silly gunzTarPerm extractEntry object/forOwnRight.js
+157 silly gunzTarPerm extractEntry object/keys.js
+158 silly gunzTarPerm extractEntry object/keysIn.js
+159 silly gunzTarPerm extractEntry object/mapKeys.js
+160 silly gunzTarPerm extractEntry object/mapValues.js
+161 silly gunzTarPerm extractEntry object/merge.js
+162 silly gunzTarPerm extractEntry object/forOwn.js
+163 silly gunzTarPerm extractEntry object/methods.js
+164 silly gunzTarPerm extractEntry object/forInRight.js
+165 silly gunzTarPerm extractEntry object/omit.js
+166 silly gunzTarPerm extractEntry object/forIn.js
+167 silly gunzTarPerm extractEntry object/pairs.js
+168 silly gunzTarPerm extractEntry object/findLastKey.js
+169 silly gunzTarPerm extractEntry object/pick.js
+170 silly gunzTarPerm extractEntry object/findKey.js
+171 silly gunzTarPerm extractEntry object/result.js
+172 silly gunzTarPerm extractEntry object/extend.js
+173 silly gunzTarPerm extractEntry object/set.js
+174 silly gunzTarPerm extractEntry object/defaultsDeep.js
+175 silly gunzTarPerm extractEntry object/transform.js
+176 silly gunzTarPerm extractEntry object/defaults.js
+177 silly gunzTarPerm extractEntry object/values.js
+178 silly gunzTarPerm extractEntry object/create.js
+179 silly gunzTarPerm extractEntry object/valuesIn.js
+180 silly gunzTarPerm extractEntry object/invert.js
+181 silly gunzTarPerm extractEntry date/now.js
+182 silly gunzTarPerm extractEntry internal/LazyWrapper.js
+183 silly gunzTarPerm extractEntry internal/compareAscending.js
+184 silly gunzTarPerm extractEntry internal/compareMultiple.js
+185 silly gunzTarPerm extractEntry internal/composeArgs.js
+186 silly gunzTarPerm extractEntry internal/charsRightIndex.js
+187 silly gunzTarPerm extractEntry internal/createAggregator.js
+188 silly gunzTarPerm extractEntry internal/createAssigner.js
+189 silly gunzTarPerm extractEntry internal/createBaseEach.js
+190 silly gunzTarPerm extractEntry internal/createBaseFor.js
+191 silly gunzTarPerm extractEntry internal/createBindWrapper.js
+192 silly gunzTarPerm extractEntry internal/charsLeftIndex.js
+193 silly gunzTarPerm extractEntry internal/createCache.js
+194 silly gunzTarPerm extractEntry internal/cachePush.js
+195 silly gunzTarPerm extractEntry internal/createCompounder.js
+196 silly gunzTarPerm extractEntry internal/cacheIndexOf.js
+197 silly gunzTarPerm extractEntry internal/createCtorWrapper.js
+198 silly gunzTarPerm extractEntry internal/bufferClone.js
+199 silly gunzTarPerm extractEntry internal/createCurry.js
+200 silly gunzTarPerm extractEntry internal/bindCallback.js
+201 silly gunzTarPerm extractEntry internal/createDefaults.js
+202 silly gunzTarPerm extractEntry internal/binaryIndexBy.js
+203 silly gunzTarPerm extractEntry internal/createExtremum.js
+204 silly gunzTarPerm extractEntry internal/binaryIndex.js
+205 silly gunzTarPerm extractEntry internal/createFind.js
+206 silly gunzTarPerm extractEntry internal/baseWrapperValue.js
+207 silly gunzTarPerm extractEntry internal/createFindIndex.js
+208 silly gunzTarPerm extractEntry internal/baseWhile.js
+209 silly gunzTarPerm extractEntry internal/createFindKey.js
+210 silly gunzTarPerm extractEntry internal/baseValues.js
+211 silly gunzTarPerm extractEntry internal/createFlow.js
+212 silly gunzTarPerm extractEntry internal/baseUniq.js
+213 silly gunzTarPerm extractEntry internal/createForEach.js
+214 silly gunzTarPerm extractEntry internal/baseToString.js
+215 silly gunzTarPerm extractEntry internal/createForIn.js
+216 silly gunzTarPerm extractEntry internal/baseSum.js
+217 silly gunzTarPerm extractEntry internal/createForOwn.js
+218 silly gunzTarPerm extractEntry internal/baseSortByOrder.js
+219 silly gunzTarPerm extractEntry internal/createHybridWrapper.js
+220 silly gunzTarPerm extractEntry internal/baseSortBy.js
+221 silly gunzTarPerm extractEntry internal/createObjectMapper.js
+222 silly gunzTarPerm extractEntry internal/baseSome.js
+223 silly gunzTarPerm extractEntry internal/createPadDir.js
+224 silly gunzTarPerm extractEntry internal/baseSlice.js
+225 silly gunzTarPerm extractEntry internal/createPadding.js
+226 silly gunzTarPerm extractEntry internal/baseSetData.js
+227 silly gunzTarPerm extractEntry internal/createPartial.js
+228 silly gunzTarPerm extractEntry internal/baseReduce.js
+229 silly gunzTarPerm extractEntry internal/createPartialWrapper.js
+230 silly gunzTarPerm extractEntry internal/baseRandom.js
+231 silly gunzTarPerm extractEntry internal/createReduce.js
+232 silly gunzTarPerm extractEntry internal/basePullAt.js
+233 silly gunzTarPerm extractEntry internal/createRound.js
+234 silly gunzTarPerm extractEntry internal/basePropertyDeep.js
+235 silly gunzTarPerm extractEntry internal/createSortedIndex.js
+236 silly gunzTarPerm extractEntry internal/baseProperty.js
+237 silly gunzTarPerm extractEntry internal/createWrapper.js
+238 silly gunzTarPerm extractEntry internal/baseMergeDeep.js
+239 silly gunzTarPerm extractEntry internal/deburrLetter.js
+240 silly gunzTarPerm extractEntry internal/baseMerge.js
+241 silly gunzTarPerm extractEntry internal/equalArrays.js
+242 silly gunzTarPerm extractEntry internal/baseMatchesProperty.js
+243 silly gunzTarPerm extractEntry internal/equalByTag.js
+244 silly gunzTarPerm extractEntry internal/baseMatches.js
+245 silly gunzTarPerm extractEntry internal/equalObjects.js
+246 silly gunzTarPerm extractEntry internal/baseMap.js
+247 silly gunzTarPerm extractEntry internal/escapeHtmlChar.js
+248 silly gunzTarPerm extractEntry internal/baseLodash.js
+249 silly gunzTarPerm extractEntry internal/escapeRegExpChar.js
+250 silly gunzTarPerm extractEntry internal/baseIsMatch.js
+251 silly gunzTarPerm extractEntry internal/escapeStringChar.js
+252 silly gunzTarPerm extractEntry internal/baseIsFunction.js
+253 silly gunzTarPerm extractEntry internal/getData.js
+254 silly gunzTarPerm extractEntry internal/baseIsEqualDeep.js
+255 silly gunzTarPerm extractEntry internal/getFuncName.js
+256 silly gunzTarPerm extractEntry internal/baseIsEqual.js
+257 silly gunzTarPerm extractEntry internal/getLength.js
+258 silly gunzTarPerm extractEntry internal/baseIndexOf.js
+259 silly gunzTarPerm extractEntry internal/getMatchData.js
+260 silly gunzTarPerm extractEntry internal/baseGet.js
+261 silly gunzTarPerm extractEntry internal/getNative.js
+262 silly gunzTarPerm extractEntry internal/baseFunctions.js
+263 silly gunzTarPerm extractEntry internal/getView.js
+264 silly gunzTarPerm extractEntry internal/baseForRight.js
+265 silly gunzTarPerm extractEntry internal/indexOfNaN.js
+266 silly gunzTarPerm extractEntry internal/baseForOwnRight.js
+267 silly gunzTarPerm extractEntry internal/initCloneArray.js
+268 silly gunzTarPerm extractEntry internal/baseForOwn.js
+269 silly gunzTarPerm extractEntry internal/initCloneByTag.js
+270 silly gunzTarPerm extractEntry internal/baseForIn.js
+271 silly gunzTarPerm extractEntry internal/initCloneObject.js
+272 silly gunzTarPerm extractEntry internal/baseFor.js
+273 silly gunzTarPerm extractEntry internal/invokePath.js
+274 silly gunzTarPerm extractEntry internal/baseFlatten.js
+275 silly gunzTarPerm extractEntry internal/isArrayLike.js
+276 silly gunzTarPerm extractEntry internal/baseFindIndex.js
+277 silly gunzTarPerm extractEntry internal/isIndex.js
+278 silly gunzTarPerm extractEntry internal/baseFind.js
+279 silly gunzTarPerm extractEntry internal/isIterateeCall.js
+280 silly gunzTarPerm extractEntry internal/baseFilter.js
+281 silly gunzTarPerm extractEntry internal/isKey.js
+282 silly gunzTarPerm extractEntry internal/baseFill.js
+283 silly gunzTarPerm extractEntry internal/isLaziable.js
+284 silly gunzTarPerm extractEntry internal/baseExtremum.js
+285 silly gunzTarPerm extractEntry internal/isLength.js
+286 silly gunzTarPerm extractEntry internal/baseEvery.js
+287 silly gunzTarPerm extractEntry internal/isObjectLike.js
+288 silly gunzTarPerm extractEntry internal/baseEachRight.js
+289 silly gunzTarPerm extractEntry internal/isSpace.js
+290 silly gunzTarPerm extractEntry internal/baseEach.js
+291 silly gunzTarPerm extractEntry internal/isStrictComparable.js
+292 silly gunzTarPerm extractEntry internal/baseDifference.js
+293 silly gunzTarPerm extractEntry internal/lazyClone.js
+294 silly gunzTarPerm extractEntry internal/baseDelay.js
+295 silly gunzTarPerm extractEntry internal/lazyReverse.js
+296 silly gunzTarPerm extractEntry internal/baseCreate.js
+297 silly gunzTarPerm extractEntry internal/lazyValue.js
+298 silly gunzTarPerm extractEntry internal/baseCopy.js
+299 silly gunzTarPerm extractEntry internal/mapDelete.js
+300 silly gunzTarPerm extractEntry internal/baseCompareAscending.js
+301 silly gunzTarPerm extractEntry internal/mapGet.js
+302 silly gunzTarPerm extractEntry internal/baseClone.js
+303 silly gunzTarPerm extractEntry internal/mapHas.js
+304 silly gunzTarPerm extractEntry internal/baseCallback.js
+305 silly gunzTarPerm extractEntry internal/mapSet.js
+306 silly gunzTarPerm extractEntry internal/baseAt.js
+307 silly gunzTarPerm extractEntry internal/mergeData.js
+308 silly gunzTarPerm extractEntry internal/baseAssign.js
+309 silly gunzTarPerm extractEntry internal/mergeDefaults.js
+310 silly gunzTarPerm extractEntry internal/assignWith.js
+311 silly gunzTarPerm extractEntry internal/metaMap.js
+312 silly gunzTarPerm extractEntry internal/assignOwnDefaults.js
+313 silly gunzTarPerm extractEntry internal/pickByArray.js
+314 silly gunzTarPerm extractEntry internal/assignDefaults.js
+315 silly gunzTarPerm extractEntry internal/pickByCallback.js
+316 silly gunzTarPerm extractEntry internal/arraySum.js
+317 silly gunzTarPerm extractEntry internal/reEscape.js
+318 silly gunzTarPerm extractEntry internal/arraySome.js
+319 silly gunzTarPerm extractEntry internal/reEvaluate.js
+320 silly gunzTarPerm extractEntry internal/arrayReduceRight.js
+321 silly gunzTarPerm extractEntry internal/reInterpolate.js
+322 silly gunzTarPerm extractEntry internal/arrayReduce.js
+323 silly gunzTarPerm extractEntry internal/realNames.js
+324 silly gunzTarPerm extractEntry internal/arrayPush.js
+325 silly gunzTarPerm extractEntry internal/reorder.js
+326 silly gunzTarPerm extractEntry internal/arrayMap.js
+327 silly gunzTarPerm extractEntry internal/replaceHolders.js
+328 silly gunzTarPerm extractEntry internal/arrayFilter.js
+329 silly gunzTarPerm extractEntry internal/setData.js
+330 silly gunzTarPerm extractEntry internal/arrayExtremum.js
+331 silly gunzTarPerm extractEntry internal/shimKeys.js
+332 silly gunzTarPerm extractEntry internal/arrayEvery.js
+333 silly gunzTarPerm extractEntry internal/sortedUniq.js
+334 silly gunzTarPerm extractEntry internal/arrayEachRight.js
+335 silly gunzTarPerm extractEntry internal/toIterable.js
+336 silly gunzTarPerm extractEntry internal/arrayEach.js
+337 silly gunzTarPerm extractEntry internal/toObject.js
+338 silly gunzTarPerm extractEntry internal/arrayCopy.js
+339 silly gunzTarPerm extractEntry internal/toPath.js
+340 silly gunzTarPerm extractEntry internal/arrayConcat.js
+341 silly gunzTarPerm extractEntry internal/trimmedLeftIndex.js
+342 silly gunzTarPerm extractEntry internal/SetCache.js
+343 silly gunzTarPerm extractEntry internal/trimmedRightIndex.js
+344 silly gunzTarPerm extractEntry internal/MapCache.js
+345 silly gunzTarPerm extractEntry internal/unescapeHtmlChar.js
+346 silly gunzTarPerm extractEntry internal/LodashWrapper.js
+347 silly gunzTarPerm extractEntry internal/wrapperClone.js
+348 silly gunzTarPerm extractEntry internal/composeArgsRight.js
+349 silly gunzTarPerm extractEntry string/camelCase.js
+350 silly gunzTarPerm extractEntry string/padLeft.js
+351 silly gunzTarPerm extractEntry string/padRight.js
+352 silly gunzTarPerm extractEntry string/parseInt.js
+353 silly gunzTarPerm extractEntry string/pad.js
+354 silly gunzTarPerm extractEntry string/snakeCase.js
+355 silly gunzTarPerm extractEntry string/startCase.js
+356 silly gunzTarPerm extractEntry string/startsWith.js
+357 silly gunzTarPerm extractEntry string/template.js
+358 silly gunzTarPerm extractEntry string/templateSettings.js
+359 silly gunzTarPerm extractEntry string/kebabCase.js
+360 silly gunzTarPerm extractEntry string/trim.js
+361 silly gunzTarPerm extractEntry string/escapeRegExp.js
+362 silly gunzTarPerm extractEntry string/trimLeft.js
+363 silly gunzTarPerm extractEntry string/escape.js
+364 silly gunzTarPerm extractEntry string/trimRight.js
+365 silly gunzTarPerm extractEntry string/endsWith.js
+366 silly gunzTarPerm extractEntry string/trunc.js
+367 silly gunzTarPerm extractEntry string/deburr.js
+368 silly gunzTarPerm extractEntry string/unescape.js
+369 silly gunzTarPerm extractEntry string/capitalize.js
+370 silly gunzTarPerm extractEntry string/words.js
+371 silly gunzTarPerm extractEntry string/repeat.js
+372 silly gunzTarPerm extractEntry chain/chain.js
+373 silly gunzTarPerm extractEntry chain/run.js
+374 silly gunzTarPerm extractEntry chain/tap.js
+375 silly gunzTarPerm extractEntry chain/thru.js
+376 silly gunzTarPerm extractEntry chain/toJSON.js
+377 silly gunzTarPerm extractEntry chain/reverse.js
+378 silly gunzTarPerm extractEntry chain/value.js
+379 silly gunzTarPerm extractEntry chain/valueOf.js
+380 silly gunzTarPerm extractEntry chain/wrapperChain.js
+381 silly gunzTarPerm extractEntry chain/wrapperCommit.js
+382 silly gunzTarPerm extractEntry chain/wrapperConcat.js
+383 silly gunzTarPerm extractEntry chain/plant.js
+384 silly gunzTarPerm extractEntry chain/wrapperPlant.js
+385 silly gunzTarPerm extractEntry chain/lodash.js
+386 silly gunzTarPerm extractEntry chain/wrapperReverse.js
+387 silly gunzTarPerm extractEntry chain/concat.js
+388 silly gunzTarPerm extractEntry chain/wrapperToString.js
+389 silly gunzTarPerm extractEntry chain/commit.js
+390 silly gunzTarPerm extractEntry chain/wrapperValue.js
+391 silly gunzTarPerm extractEntry chain/toString.js
+392 silly gunzTarPerm extractEntry array/chunk.js
+393 silly gunzTarPerm extractEntry array/last.js
+394 silly gunzTarPerm extractEntry array/lastIndexOf.js
+395 silly gunzTarPerm extractEntry array/object.js
+396 silly gunzTarPerm extractEntry array/pull.js
+397 silly gunzTarPerm extractEntry array/intersection.js
+398 silly gunzTarPerm extractEntry array/remove.js
+399 silly gunzTarPerm extractEntry array/rest.js
+400 silly gunzTarPerm extractEntry array/slice.js
+401 silly gunzTarPerm extractEntry array/sortedIndex.js
+402 silly gunzTarPerm extractEntry array/sortedLastIndex.js
+403 silly gunzTarPerm extractEntry array/initial.js
+404 silly gunzTarPerm extractEntry array/tail.js
+405 silly gunzTarPerm extractEntry array/indexOf.js
+406 silly gunzTarPerm extractEntry array/take.js
+407 silly gunzTarPerm extractEntry array/head.js
+408 silly gunzTarPerm extractEntry array/takeRight.js
+409 silly gunzTarPerm extractEntry array/flattenDeep.js
+410 silly gunzTarPerm extractEntry array/takeRightWhile.js
+411 silly gunzTarPerm extractEntry array/flatten.js
+412 silly gunzTarPerm extractEntry array/takeWhile.js
+413 silly gunzTarPerm extractEntry array/first.js
+414 silly gunzTarPerm extractEntry array/union.js
+415 silly gunzTarPerm extractEntry array/findLastIndex.js
+416 silly gunzTarPerm extractEntry array/uniq.js
+417 silly gunzTarPerm extractEntry array/findIndex.js
+418 silly gunzTarPerm extractEntry array/unique.js
+419 silly gunzTarPerm extractEntry array/fill.js
+420 silly gunzTarPerm extractEntry array/unzip.js
+421 silly gunzTarPerm extractEntry array/dropWhile.js
+422 silly gunzTarPerm extractEntry array/unzipWith.js
+423 silly gunzTarPerm extractEntry array/dropRightWhile.js
+424 silly gunzTarPerm extractEntry array/without.js
+425 silly gunzTarPerm extractEntry array/dropRight.js
+426 silly gunzTarPerm extractEntry array/xor.js
+427 silly gunzTarPerm extractEntry array/drop.js
+428 silly gunzTarPerm extractEntry array/zip.js
+429 silly gunzTarPerm extractEntry array/difference.js
+430 silly gunzTarPerm extractEntry array/zipObject.js
+431 silly gunzTarPerm extractEntry array/compact.js
+432 silly gunzTarPerm extractEntry array/zipWith.js
+433 silly gunzTarPerm extractEntry array/pullAt.js
+434 silly gunzTarPerm extractEntry utility/attempt.js
+435 silly gunzTarPerm extractEntry utility/iteratee.js
+436 silly gunzTarPerm extractEntry utility/matches.js
+437 silly gunzTarPerm extractEntry utility/matchesProperty.js
+438 silly gunzTarPerm extractEntry utility/method.js
+439 silly gunzTarPerm extractEntry utility/identity.js
+440 silly gunzTarPerm extractEntry utility/mixin.js
+441 silly gunzTarPerm extractEntry utility/noop.js
+442 silly gunzTarPerm extractEntry utility/property.js
+443 silly gunzTarPerm extractEntry utility/propertyOf.js
+444 silly gunzTarPerm extractEntry utility/range.js
+445 silly gunzTarPerm extractEntry utility/constant.js
+446 silly gunzTarPerm extractEntry utility/times.js
+447 silly gunzTarPerm extractEntry utility/callback.js
+448 silly gunzTarPerm extractEntry utility/uniqueId.js
+449 silly gunzTarPerm extractEntry utility/methodOf.js
+450 silly gunzTarPerm extractEntry lang/clone.js
+451 silly gunzTarPerm extractEntry lang/isEqual.js
+452 silly gunzTarPerm extractEntry lang/isError.js
+453 silly gunzTarPerm extractEntry lang/isFinite.js
+454 silly gunzTarPerm extractEntry lang/isFunction.js
+455 silly gunzTarPerm extractEntry lang/isEmpty.js
+456 silly gunzTarPerm extractEntry lang/isNaN.js
+457 silly gunzTarPerm extractEntry lang/isNative.js
+458 silly gunzTarPerm extractEntry lang/isNull.js
+459 silly gunzTarPerm extractEntry lang/isNumber.js
+460 silly gunzTarPerm extractEntry lang/isObject.js
+461 silly gunzTarPerm extractEntry lang/isElement.js
+462 silly gunzTarPerm extractEntry lang/isPlainObject.js
+463 silly gunzTarPerm extractEntry lang/isDate.js
+464 silly gunzTarPerm extractEntry lang/isRegExp.js
+465 silly gunzTarPerm extractEntry lang/isBoolean.js
+466 silly gunzTarPerm extractEntry lang/isString.js
+467 silly gunzTarPerm extractEntry lang/isArray.js
+468 silly gunzTarPerm extractEntry lang/isTypedArray.js
+469 silly gunzTarPerm extractEntry lang/isArguments.js
+470 silly gunzTarPerm extractEntry lang/isUndefined.js
+471 silly gunzTarPerm extractEntry lang/gte.js
+472 silly gunzTarPerm extractEntry lang/lt.js
+473 silly gunzTarPerm extractEntry lang/gt.js
+474 silly gunzTarPerm extractEntry lang/lte.js
+475 silly gunzTarPerm extractEntry lang/eq.js
+476 silly gunzTarPerm extractEntry lang/toArray.js
+477 silly gunzTarPerm extractEntry lang/cloneDeep.js
+478 silly gunzTarPerm extractEntry lang/toPlainObject.js
+479 silly gunzTarPerm extractEntry lang/isMatch.js
+480 silly lockFile e551b3f0-cuments-code-node-modules-lodash tar:///Users/Chadtech/Documents/code/node_modules/lodash
+481 silly lockFile e551b3f0-cuments-code-node-modules-lodash tar:///Users/Chadtech/Documents/code/node_modules/lodash
+482 silly lockFile 890255bf-ch-npm-lodash-3-10-0-package-tgz tar:///Users/Chadtech/.npm/lodash/3.10.0/package.tgz
+483 silly lockFile 890255bf-ch-npm-lodash-3-10-0-package-tgz tar:///Users/Chadtech/.npm/lodash/3.10.0/package.tgz
+484 info preinstall lodash@3.10.0
+485 verbose readDependencies using package.json deps
+486 verbose readDependencies using package.json deps
+487 silly resolved []
+488 verbose about to build /Users/Chadtech/Documents/code/node_modules/lodash
+489 info build /Users/Chadtech/Documents/code/node_modules/lodash
+490 verbose linkStuff [ false,
+490 verbose linkStuff   false,
+490 verbose linkStuff   false,
+490 verbose linkStuff   '/Users/Chadtech/Documents/code/node_modules' ]
+491 info linkStuff lodash@3.10.0
+492 verbose linkBins lodash@3.10.0
+493 verbose linkMans lodash@3.10.0
+494 verbose rebuildBundles lodash@3.10.0
+495 info install lodash@3.10.0
+496 info postinstall lodash@3.10.0
+497 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+497 error peerinvalid Peer react-router@0.13.1 wants react@0.13.x
+498 error System Darwin 14.0.0
+499 error command "node" "/usr/local/bin/npm" "install" "lodash" "-f"
+500 error cwd /Users/Chadtech/Documents/code/CtScript4
+501 error node -v v0.10.29
+502 error npm -v 1.4.14
+503 error code EPEERINVALID
+504 verbose exit [ 1, true ]
